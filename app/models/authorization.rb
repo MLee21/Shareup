@@ -1,3 +1,3 @@
 class Authorization < ActiveRecord::Base
-  belongs_to :userminni
+  belongs_to :user
 end
