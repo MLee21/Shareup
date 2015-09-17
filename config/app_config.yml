@@ -1,7 +1,7 @@
 defaults: &defaults
   twitter:
-    clientId: "CONSUMERKEY"
-    clientSecret: "CONSUMERSECRET"
+    clientId: "vyv0Oh011EiuGmcfdDZelPvT5"
+    clientSecret: "DY3rXDL9mVa6m8AVlGnrAPcurW15jio6VLQ44ZWXDdUXbJU1OH"
 
 development:
   <<: *defaults
