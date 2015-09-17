@@ -1,4 +1,21 @@
-<h2>Welcome back {{user.name}} </h2>
+<nav class="top-bar">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="#">Welcome back {{ user.name  | capitalize }} </a></h1>
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a>
+    </li>
+  </ul>
+  <section class="top-bar-section">
+    <ul class="right">
+      <li class="divider show-for-small"></li>
+      <li>
+        <a href="/users/sign_out">Sign Out</a>
+      </li>
+    </ul>
+  </section>
+</nav>
+
 <div>
   <ul>
     <li ng-repeat="article in articles | orderBy: publishedDate:false">
