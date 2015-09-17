@@ -16,7 +16,7 @@ gem 'angularjs-rails', '>1.2.0.rc1'
 gem 'ngmin-rails'
 gem 'foundation-rails'
 gem 'rails_12factor'
-gem 'sprockets-rails'
+# gem 'sprockets-rails'
 
 group :development, :test do
   gem 'byebug'
